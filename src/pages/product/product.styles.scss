@@ -1,0 +1,32 @@
+.product {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  .product-main {
+    // width: 100%;
+    display: flex;
+    // justify-content: space-between;
+    justify-content: space-between;
+
+    .product-options {
+      margin-top: 4rem;
+      width: 49%;
+      color: white;
+      background-color: black;
+      .product-option {
+        cursor: pointer;
+        width: 100%;
+        text-align: center;
+        line-height: 1.82;
+      }
+    }
+  }
+
+  .stick {
+    width: 43rem !important;
+  }
+
+  .choose-1 {
+    color: black;
+    background-color: white;
+  }
+}

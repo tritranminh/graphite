@@ -1,0 +1,11 @@
+.navigation-main {
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+
+  .navigation-list {
+    display: flex;
+    gap: 3rem;
+  }
+}

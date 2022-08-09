@@ -1,0 +1,103 @@
+.preview-graphite {
+  background: url('./../../assets/img/index_27.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  max-height: 61.9rem;
+  min-height: 61.9rem;
+  position: relative;
+
+  div {
+    color: white;
+  }
+
+  hr {
+    border-color: #fff;
+    background-color: #fff;
+  }
+
+  .content-box__1 {
+    width: 100%;
+    margin: 0 auto;
+    // margin-bottom: 4rem;
+    padding-top: 3rem;
+    background: rgba(0, 0, 0, 0.3);
+    min-height: 61.9rem;
+
+    .name-tag {
+      font-size: 4.2rem;
+      font-weight: 700;
+    }
+
+    .text-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.8rem;
+      line-height: 1.52;
+    }
+  }
+
+  .content-box__3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10rem;
+    row-gap: 5rem;
+    div {
+      // background-color: #fff;
+      width: 51rem;
+      height: 17rem;
+      transition: all 0.3s;
+    }
+
+    div:hover {
+      box-shadow: 0 0 10px 6px #e0f2fe;
+    }
+
+    div.img-1 {
+      background: url('./../../assets/img/graphite.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    div.img-2 {
+      background: url('./../../assets/img/graphite-rock.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    div.img-3 {
+      background: url('./../../assets/img/iphone.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    div.img-4 {
+      background: url('./../../assets/img/can-cau.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .img-text__content {
+      display: flex;
+      background: rgba(0, 0, 0, 0.4);
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    div p:first-child {
+      font-size: 2.4rem;
+      line-height: 1.7;
+      font-weight: 700;
+    }
+
+    div p:last-child {
+      font-size: 1.4rem;
+      line-height: 2;
+    }
+  }
+}

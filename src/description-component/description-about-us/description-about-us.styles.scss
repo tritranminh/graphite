@@ -1,0 +1,43 @@
+.preview-about {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+
+  .content-box__1 {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+
+    div {
+      display: inline-block;
+    }
+
+    .name-tag {
+      font-size: 4.2rem;
+      font-weight: 700;
+    }
+
+    .text-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.8rem;
+      line-height: 1.52;
+    }
+  }
+
+  .content-box__2 {
+    display: flex;
+    justify-content: space-between;
+    width: 90rem;
+    margin: 0 auto;
+
+    .content-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 2.4rem;
+    }
+  }
+}
